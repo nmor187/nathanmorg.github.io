@@ -6,24 +6,49 @@
             color: #333;
         }
 
-        header,footer {
+        header {
             background-color: #333;
             color: #fff;
             text-align: center;
             padding: 1em 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            bottom: 0;
+            position: fixed;
+            width: 100%;
         }
 
         section {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
+            padding-bottom: 40px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
-        h2 {
+        div ul {
+            text-align: left;
+            list-style-type: none;
+            list-style: circle;
+            padding: 20px;
+            margin-top: 0;
+        }
+        div {
             color: #333;
-            text-align: center; /* Center the text within the h2 element */
+            text-align: left; /* Center the text within the h2 element */
+        }
+        p {
+            font-size: 1.2em;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        p,h3 {
+            margin-top: auto;
+            margin-bottom: auto;
         }
 
         ul {
@@ -44,4 +69,7 @@
 
         a:hover {
             text-decoration: underline;
+        }
+        img {
+            max-width: 800px;
         }
